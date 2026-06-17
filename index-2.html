@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdusee.Tech (ATN) — AI, Online Income & Digital Skills for the Modern Creator</title>
+<meta name="description" content="Abdusee Tech Network (ATN) is a tech education hub by Abdusalam Ahmed Kasim covering AI tools, online income, app reviews, and digital innovation news. Learn. Build. Grow.">
+<meta name="keywords" content="Abdusee.Tech, ATN, Abdusee Tech Network, Abdusalam Ahmed Kasim, AI tools, online income, freelancing, programming tutorials, digital creation, tech news, YouTube growth, AI automation">
+<meta name="author" content="Abdusalam Ahmed Kasim">
+<meta name="application-name" content="ATN">
+<meta name="theme-color" content="#0a0e17">
+<link rel="canonical" href="https://abdusee.tech/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="ATN — Abdusee Tech Network | Learn. Build. Grow.">
+<meta property="og:description" content="AI • Technology • Online Income • Digital Skills — guides, tools, and news by Abdusalam Ahmed Kasim.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://abdusee.tech/">
+<meta property="og:image" content="https://abdusee.tech/images/og-cover.jpg">
+<meta property="og:site_name" content="ATN — Abdusee Tech Network">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ATN — Abdusee Tech Network | Learn. Build. Grow.">
+<meta name="twitter:description" content="AI • Technology • Online Income • Digital Skills — guides, tools, and news by Abdusalam Ahmed Kasim.">
+<meta name="twitter:image" content="https://abdusee.tech/images/og-cover.jpg">
+<meta name="twitter:site" content="@abdusee81427">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ATN">
+<meta name="mobile-web-app-capable" content="yes">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured Data: Person + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Abdusalam Ahmed Kasim",
+      "url": "https://abdusee.tech/",
+      "email": "mailto:ahmedabdusalem397@gmail.com",
+      "jobTitle": "Tech Educator & Digital Creator",
+      "sameAs": [
+        "https://www.youtube.com/@abdusalemahmed77",
+        "https://www.facebook.com/profile.php?id=100070749834957",
+        "https://t.me/+-nRuy2lGYOw5MzU0",
+        "https://github.com/CUIPLOK/Abdusee-Tech-",
+        "https://x.com/abdusee81427"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": "ATN — Abdusee Tech Network",
+      "alternateName": "Abdusee.Tech",
+      "url": "https://abdusee.tech/",
+      "description": "AI • Technology • Online Income • Digital Skills. Learn. Build. Grow.",
+      "author": { "@type": "Person", "name": "Abdusalam Ahmed Kasim" }
+    }
+  ]
+}
+</script>
+
+<!-- ================= GOOGLE ANALYTICS (GA4) ================= -->
+<!-- Replace G-XXXXXXXXXX with your real Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head>
+<body data-theme="dark">
+
+<!-- ================= LOADER ================= -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <h1 class="loader-logo">🚀 Loading ATN...</h1>
+    <p class="loader-sub">Abdusee Tech Network</p>
+    <div class="loader-bar"><span id="loaderBarFill"></span></div>
+    <span class="loader-percent" id="loaderPercent">0%</span>
+  </div>
+</div>
+
+<!-- ================= SCROLL PROGRESS ================= -->
+<div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+<div class="scroll-progress-label" id="scrollProgressLabel">Reading Progress: 0%</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo" data-route="home">
+      <span class="logo-mark"><span class="logo-bracket">&lt;</span>ATN<span class="logo-bracket">/&gt;</span></span>
+      <span class="logo-sub">Abdusee Tech Network</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" data-route="home">Home</a>
+      <a href="#money" data-route="money">Online Money</a>
+      <a href="#ai" data-route="ai">AI</a>
+      <a href="#news" data-route="news">News</a>
+      <a href="#apps" data-route="apps">Apps</a>
+      <a href="#about" data-route="about">About</a>
+      <a href="#contact" data-route="contact">Contact</a>
+      <div class="nav-social-row">
+        <a href="https://www.youtube.com/@abdusalemahmed77" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+        <a href="https://github.com/CUIPLOK/Abdusee-Tech-" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://x.com/abdusee81427?s=09" target="_blank" rel="noopener" aria-label="X (Twitter)">X</a>
+        <a href="https://t.me/+-nRuy2lGYOw5MzU0" target="_blank" rel="noopener" aria-label="Telegram">Telegram</a>
+        <a href="https://www.facebook.com/profile.php?id=100070749834957&mibextid=ZbWKwL" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+      </div>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="cmdk-trigger" id="cmdkTrigger" aria-label="Open search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span>Search</span>
+        <kbd>⌘K</kbd>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= COMMAND PALETTE ================= -->
+<div class="cmdk-overlay" id="cmdkOverlay">
+  <div class="cmdk-panel">
+    <div class="cmdk-input-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="cmdkInput" placeholder="Search articles, videos, pages, tools..." autocomplete="off">
+      <kbd>ESC</kbd>
+    </div>
+    <div class="cmdk-results" id="cmdkResults"></div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ================= HOME ================= -->
+  <section class="view" id="home" data-view="home">
+
+    <section class="hero">
+      <div class="hero-grid-bg"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="dot-pulse"></span> ATN — Learn. Build. Grow.</div>
+          <h1 class="hero-title">
+            Build Skills. <span class="grad-text">Earn Online.</span> Master AI.
+          </h1>
+          <p class="hero-sub">
+            Learn Programming, Artificial Intelligence, Online Income, Digital Creation, and Modern Technology through practical tutorials, real projects, and proven strategies.
+          </p>
+          <div class="hero-cta">
+            <a href="#ai" class="btn btn-primary" data-route="ai">Explore AI Tools</a>
+            <a href="#money" class="btn btn-ghost" data-route="money">Start Earning Online</a>
+          </div>
+          <ul class="trust-badges">
+            <li><span class="badge-check">✓</span> Weekly Tutorials</li>
+            <li><span class="badge-check">✓</span> AI Tools Reviewed</li>
+            <li><span class="badge-check">✓</span> Practical Guides</li>
+            <li><span class="badge-check">✓</span> Creator Focused</li>
+          </ul>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num" data-count="7">0</span><span class="stat-label">Content Pillars</span></div>
+            <div class="stat"><span class="stat-num" data-count="120">0</span><span class="stat-label">+ Tutorials</span></div>
+            <div class="stat"><span class="stat-num" data-count="40">0</span><span class="stat-label">+ AI Tools Reviewed</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="terminal-window">
+            <div class="terminal-bar">
+              <div class="terminal-dots"><span></span><span></span><span></span></div>
+              <span class="terminal-title">abdusee.tech — zsh</span>
+            </div>
+            <div class="terminal-body">
+              <pre id="terminalCode"></pre>
+              <span class="cursor-blink">▋</span>
+            </div>
+          </div>
+          <div class="float-card float-card-1">
+            <span class="fc-icon">🤖</span>
+            <div><strong>New: AI Agents</strong><small>Pillar updated 2 days ago</small></div>
+          </div>
+          <div class="float-card float-card-2">
+            <span class="fc-icon">💸</span>
+            <div><strong>Freelance Playbook</strong><small>v3 — now live</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pillars -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-static">Seven Pillars</span>
+        <h2>One brand. Seven paths to mastery.</h2>
+        <p class="section-sub">Every guide on Abdusee.Tech maps back to one of these tracks — pick where you start, stack skills as you go.</p>
+      </div>
+      <div class="pillar-grid">
+        <article class="pillar-card" data-route="programming">
+          <div class="pillar-icon">⌨️</div>
+          <h3>Programming &amp; Web/Mobile Dev</h3>
+          <p>Build real apps with modern frameworks — from your first component to production deploys.</p>
+        </article>
+        <article class="pillar-card" data-route="ai">
+          <div class="pillar-icon">🧠</div>
+          <h3>AI &amp; Automation</h3>
+          <p>Prompt engineering, agents, and no-code automation that save hours every week.</p>
+        </article>
+        <article class="pillar-card" data-route="money">
+          <div class="pillar-icon">💰</div>
+          <h3>Online Income</h3>
+          <p>Freelancing, affiliate income, e-commerce, and remote work — with real numbers.</p>
+        </article>
+        <article class="pillar-card" data-route="video">
+          <div class="pillar-icon">🎬</div>
+          <h3>Video Production</h3>
+          <p>Shoot, edit, and publish content that looks — and performs — like a studio made it.</p>
+        </article>
+        <article class="pillar-card" data-route="design">
+          <div class="pillar-icon">🎨</div>
+          <h3>Visual Arts &amp; UI/UX</h3>
+          <p>Design systems, interface craft, and visual storytelling for digital products.</p>
+        </article>
+        <article class="pillar-card" data-route="trading">
+          <div class="pillar-icon">📈</div>
+          <h3>Digital Trading</h3>
+          <p>Markets, charts, and risk frameworks — explained for builders, not gamblers.</p>
+        </article>
+        <article class="pillar-card pillar-card-wide" data-route="growth">
+          <div class="pillar-icon">📣</div>
+          <h3>Content Creation &amp; YouTube Growth</h3>
+          <p>Channel strategy, retention, thumbnails, and the analytics that actually move the needle.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Featured content -->
+    <section class="section section-alt">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-static">Fresh from the lab</span>
+        <h2>Featured this week</h2>
+      </div>
+      <div class="card-grid" id="featuredGrid"></div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-static">From the workshop</span>
+        <h2>Featured Projects</h2>
+        <p class="section-sub">Real builds from the ATN lab — open-source where possible, fully documented.</p>
+      </div>
+      <div class="card-grid" id="projectsGrid">
+        <article class="project-card glass">
+          <div class="project-icon">🤖</div>
+          <h3>AI Agent Dashboard</h3>
+          <p>A control panel for monitoring and triggering multiple AI agents from one place.</p>
+          <a href="#" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">View Project</a>
+        </article>
+        <article class="project-card glass">
+          <div class="project-icon">🧑‍💻</div>
+          <h3>Portfolio Website System</h3>
+          <p>A reusable, themeable portfolio template built for fast personal-site deploys.</p>
+          <a href="#" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">View Project</a>
+        </article>
+        <article class="project-card glass">
+          <div class="project-icon">📈</div>
+          <h3>YouTube Growth Tracker</h3>
+          <p>Tracks channel analytics over time and flags videos worth re-promoting.</p>
+          <a href="#" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">View Project</a>
+        </article>
+        <article class="project-card glass">
+          <div class="project-icon">🗂️</div>
+          <h3>Freelance Client CRM</h3>
+          <p>A lightweight CRM for managing leads, proposals, and invoices as a solo freelancer.</p>
+          <a href="#" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-alt">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-static">Reader feedback</span>
+        <h2>What Readers Say</h2>
+      </div>
+      <div class="card-grid" id="testimonialsGrid">
+        <article class="testimonial-card glass">
+          <div class="t-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>"One of the best AI learning resources online."</p>
+          <div class="t-author">— ATN Reader</div>
+        </article>
+        <article class="testimonial-card glass">
+          <div class="t-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>"The practical guides helped me start freelancing."</p>
+          <div class="t-author">— ATN Reader</div>
+        </article>
+        <article class="testimonial-card glass">
+          <div class="t-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>"Clean explanations without unnecessary fluff."</p>
+          <div class="t-author">— ATN Reader</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Featured Videos -->
+    <section class="section" id="videosSection">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-static">On the channel</span>
+        <h2>Featured Videos</h2>
+        <p class="section-sub">Latest uploads from the ATN YouTube channel — embedded and ready to watch.</p>
+      </div>
+
+      <div class="video-card glass">
+        <div class="video-thumb">
+          <img src="images/video-thumbnail.jpg" alt="Latest ATN video thumbnail" loading="lazy" width="640" height="360">
+          <button class="play-btn" id="videoPlayBtn" aria-label="Play featured video" data-video-id="">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+        <div class="video-info">
+          <h3>How I Build AI Agents Without Writing Backend Code</h3>
+          <p>A walkthrough of the no-code agent stack used across the ATN project library — tools, wiring, and gotchas.</p>
+          <a href="https://www.youtube.com/@abdusalemahmed77" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Watch on YouTube</a>
+        </div>
+      </div>
+
+      <div class="video-grid" id="videoGrid">
+        <!-- Populated dynamically from script.js (FEATURED_VIDEOS). Each item renders a
+             lazy-loaded responsive YouTube embed with title + description. -->
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter">
+      <div class="newsletter-box glass">
+        <div>
+          <h2>Join the Abdusee.Tech Insider List</h2>
+          <p>Receive weekly AI tools, online income strategies, tech news, and practical tutorials directly in your inbox.</p>
+          <div class="newsletter-meta">
+            <span class="subscriber-count"><strong id="subCount">2,400</strong>+ subscribers</span>
+            <span class="privacy-note">No spam. Unsubscribe anytime.</span>
+          </div>
+        </div>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="you@example.com" required aria-label="Email address" id="newsletterEmail">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <div class="newsletter-success" id="newsletterSuccess" aria-live="polite">
+          <span class="success-icon">✓</span> You're in! Check your inbox to confirm.
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles (Blog feed on homepage) -->
+    <section class="section section-alt" id="articlesSection">
+      <div class="section-head section-head-row">
+        <div>
+          <span class="eyebrow eyebrow-static">From the blog</span>
+          <h2>Latest Articles</h2>
+        </div>
+        <div class="article-search-wrap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="articleSearch" placeholder="Search articles..." aria-label="Search articles" autocomplete="off">
+        </div>
+      </div>
+      <div class="card-grid" id="articlesGrid">
+        <!-- Populated dynamically from articles.json via script.js -->
+      </div>
+      <p class="article-empty" id="articleEmpty" hidden>No articles match your search.</p>
+    </section>
+
+    <!-- Article Detail Modal -->
+    <div class="article-modal" id="articleModal" aria-hidden="true">
+      <div class="article-modal-overlay" id="articleModalOverlay"></div>
+      <div class="article-modal-panel glass" role="dialog" aria-modal="true" aria-labelledby="articleModalTitle">
+        <button class="article-modal-close" id="articleModalClose" aria-label="Close article">✕</button>
+        <div class="article-modal-body" id="articleModalBody"></div>
+      </div>
+    </div>
+
+    <!-- ============ FUTURE-READY PLACEHOLDERS (hidden) ============ -->
+    <section class="view" id="blog" data-view="blog" hidden aria-hidden="true">
+      <div class="page-hero"><h1>Blog</h1><p>Long-form articles — coming soon.</p></div>
+    </section>
+    <section class="view" id="resources" data-view="resources" hidden aria-hidden="true">
+      <div class="page-hero"><h1>Resources</h1><p>Curated downloads and references — coming soon.</p></div>
+    </section>
+    <section class="view" id="courses" data-view="courses" hidden aria-hidden="true">
+      <div class="page-hero"><h1>Courses</h1><p>Structured learning paths — coming soon.</p></div>
+    </section>
+    <section class="view" id="ai-directory" data-view="ai-directory" hidden aria-hidden="true">
+      <div class="page-hero"><h1>AI Tools Directory</h1><p>A searchable directory of AI tools — coming soon.</p></div>
+    </section>
+    <section class="view" id="portfolio" data-view="portfolio" hidden aria-hidden="true">
+      <div class="page-hero"><h1>Portfolio</h1><p>Project case studies — coming soon.</p></div>
+    </section>
+
+  </section>
+
+  <!-- ================= ONLINE MONEY ================= -->
+  <section class="view" id="money" data-view="money" hidden>
+    <section class="page-hero">
+      <span class="eyebrow eyebrow-static">Pillar 03</span>
+      <h1>Online Money</h1>
+      <p>Practical, tested paths to income online — freelancing, digital products, remote roles, affiliate systems, and e-commerce, broken down step by step.</p>
+    </section>
+
+    <section class="section">
+      <div class="filter-bar" data-target="moneyGrid">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="freelancing">Freelancing</button>
+        <button class="filter-chip" data-filter="digital-business">Digital Business</button>
+        <button class="filter-chip" data-filter="remote-work">Remote Work</button>
+        <button class="filter-chip" data-filter="affiliate">Affiliate Marketing</button>
+        <button class="filter-chip" data-filter="ecommerce">E-commerce</button>
+      </div>
+      <div class="card-grid" id="moneyGrid"></div>
+    </section>
+  </section>
+
+  <!-- ================= AI ================= -->
+  <section class="view" id="ai" data-view="ai" hidden>
+    <section class="page-hero">
+      <span class="eyebrow eyebrow-static">Pillar 02</span>
+      <h1>AI &amp; Automation</h1>
+      <p>The tools, tutorials, and news that matter — filtered from the noise so you can build with AI, not just talk about it.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-head section-head-row">
+        <h2>Featured AI Applications</h2>
+      </div>
+      <div class="card-grid card-grid-tools" id="aiToolsGrid"></div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="filter-bar" data-target="aiGrid">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="tutorial">Tutorials</button>
+        <button class="filter-chip" data-filter="news">AI News</button>
+        <button class="filter-chip" data-filter="resource">Resources</button>
+      </div>
+      <div class="card-grid" id="aiGrid"></div>
+    </section>
+  </section>
+
+  <!-- ================= NEWS ================= -->
+  <section class="view" id="news" data-view="news" hidden>
+    <section class="page-hero">
+      <span class="eyebrow eyebrow-static">Daily digest</span>
+      <h1>News</h1>
+      <p>Technology, AI, and startup news — short, sourced, and skimmable.</p>
+    </section>
+
+    <section class="section">
+      <div class="filter-bar" data-target="newsGrid">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="technology">Technology</button>
+        <button class="filter-chip" data-filter="ai">AI</button>
+        <button class="filter-chip" data-filter="startups">Startups</button>
+        <button class="filter-chip" data-filter="innovation">Digital Innovation</button>
+      </div>
+      <div class="news-list" id="newsGrid"></div>
+    </section>
+  </section>
+
+  <!-- ================= APPS ================= -->
+  <section class="view" id="apps" data-view="apps" hidden>
+    <section class="page-hero">
+      <span class="eyebrow eyebrow-static">Tested &amp; rated</span>
+      <h1>Apps</h1>
+      <p>Mobile and web apps worth your storage space — reviewed for what they're actually good at.</p>
+    </section>
+
+    <section class="section">
+      <div class="filter-bar" data-target="appsGrid">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="productivity">Productivity</button>
+        <button class="filter-chip" data-filter="ai-apps">AI Apps</button>
+        <button class="filter-chip" data-filter="mobile">Mobile</button>
+        <button class="filter-chip" data-filter="web">Web</button>
+      </div>
+      <div class="card-grid card-grid-tools" id="appsGrid"></div>
+    </section>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="view" id="about" data-view="about" hidden>
+    <section class="page-hero about-hero">
+      <div class="about-hero-text">
+        <span class="eyebrow eyebrow-static">About the founder</span>
+        <h1>Abdusalam Ahmed Kasim</h1>
+        <p class="about-role">Technology enthusiast · AI learner · Digital creator</p>
+        <p class="about-brand">Founder of <strong>ATN — Abdusee Tech Network</strong> · <span class="grad-text">Learn. Build. Grow.</span></p>
+      </div>
+      <img src="images/profile.jpg" alt="Abdusalam Ahmed Kasim" class="about-avatar" loading="lazy" width="120" height="120">
+    </section>
+
+    <section class="section">
+      <div class="about-grid">
+        <div class="about-story glass">
+          <h2>The story so far</h2>
+          <p>Abdusee.Tech started as a way to document what I was learning — AI tools, code, side income experiments — so I wouldn't forget it. It became a channel, then a brand, then a habit of shipping something every week.</p>
+          <p>I'm not an expert who descended from a tower; I'm a few steps ahead on the same path, writing down the map as I go. If something works, it goes in a guide. If it doesn't, that goes in too — that's usually the more useful post.</p>
+          <p>Today, Abdusee.Tech covers seven pillars: programming, AI &amp; automation, online income, video production, design, trading, and content growth — all built around one idea: technology is a skill you practice, not a subject you study.</p>
+        </div>
+
+        <div class="about-side">
+          <div class="vision-card glass">
+            <h3>Vision</h3>
+            <p>A world where anyone with curiosity and an internet connection can build a real digital career — no gatekeepers, no fluff.</p>
+          </div>
+          <div class="vision-card glass">
+            <h3>Mission</h3>
+            <p>Ship one practical, tested resource every week across the seven pillars — and document the process honestly enough that you can repeat it.</p>
+          </div>
+          <div class="vision-card glass">
+            <h3>Connect with ATN</h3>
+            <div class="social-links">
+              <a href="https://www.youtube.com/@abdusalemahmed77" class="social-link" target="_blank" rel="noopener" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6.1 3.5Z"/></svg><span>YouTube</span></a>
+              <a href="https://x.com/abdusee81427?s=09" class="social-link" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 1.9h3.7l-8 9.2 9.5 11h-7.5l-5.9-7.2-6.7 7.2H.3l8.6-9.8L.1 1.9h7.7l5.3 6.7Z"/></svg><span>X / Twitter</span></a>
+              <a href="https://github.com/CUIPLOK/Abdusee-Tech-" class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.3-1.7-1.3-1.7-1.1-.7 0-.7 0-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg><span>GitHub</span></a>
+              <a href="https://t.me/+-nRuy2lGYOw5MzU0" class="social-link" target="_blank" rel="noopener" aria-label="Telegram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.6 20c-.2 1-.9 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.3.3-.5.4-.9.4l.3-4.6L18 7.5c.4-.3 0-.5-.5-.2l-10 6.3-4.3-1.3c-1-.3-1-1 .2-1.5L20.5 3.4c.8-.3 1.6.2 1.4.9Z"/></svg><span>Telegram</span></a>
+              <a href="https://www.facebook.com/profile.php?id=100070749834957&mibextid=ZbWKwL" class="social-link" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12Z"/></svg><span>Facebook</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h2>Skills &amp; Toolkit</h2>
+        <div class="skills-grid">
+          <div class="skill-pill">JavaScript / TypeScript</div>
+          <div class="skill-pill">React &amp; Next.js</div>
+          <div class="skill-pill">Python &amp; Automation</div>
+          <div class="skill-pill">Prompt Engineering</div>
+          <div class="skill-pill">AI Agents &amp; APIs</div>
+          <div class="skill-pill">UI / UX Design</div>
+          <div class="skill-pill">Video Editing</div>
+          <div class="skill-pill">SEO &amp; Content Strategy</div>
+          <div class="skill-pill">Freelance Operations</div>
+          <div class="skill-pill">E-commerce Systems</div>
+          <div class="skill-pill">YouTube Growth</div>
+          <div class="skill-pill">Market Analysis</div>
+        </div>
+      </div>
+
+      <div class="journey-block">
+        <h2>Journey</h2>
+        <div class="journey-list">
+          <div class="journey-item glass">
+            <span class="journey-dot"></span>
+            <div>
+              <h4>Started learning to code</h4>
+              <p>Began with the basics — HTML, CSS, and JavaScript — building small projects to learn by doing.</p>
+            </div>
+          </div>
+          <div class="journey-item glass">
+            <span class="journey-dot"></span>
+            <div>
+              <h4>Explored online income</h4>
+              <p>Tested freelancing, digital products, and affiliate strategies — keeping notes on what actually worked.</p>
+            </div>
+          </div>
+          <div class="journey-item glass">
+            <span class="journey-dot"></span>
+            <div>
+              <h4>Started Abdusee Tech</h4>
+              <p>Turned personal notes into public guides — the first videos and articles went live.</p>
+            </div>
+          </div>
+          <div class="journey-item glass">
+            <span class="journey-dot"></span>
+            <div>
+              <h4>Went deep on AI</h4>
+              <p>Shifted focus toward AI tools, automation, and agents — now a core pillar of the brand.</p>
+            </div>
+          </div>
+          <div class="journey-item glass">
+            <span class="journey-dot"></span>
+            <div>
+              <h4>Building ATN today</h4>
+              <p>Growing Abdusee Tech Network into a full platform — articles, tools, projects, and a community.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="view" id="contact" data-view="contact" hidden>
+    <section class="page-hero">
+      <span class="eyebrow eyebrow-static">Let's talk</span>
+      <h1>Contact</h1>
+      <p>Questions, collab ideas, or just want to say hi — reach out below.</p>
+    </section>
+
+    <section class="section contact-section">
+      <div class="contact-grid">
+        <form class="contact-form glass" id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me more..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+
+        <div class="contact-side">
+          <div class="contact-card glass">
+            <h3>Direct Email</h3>
+            <a href="mailto:ahmedabdusalem397@gmail.com" class="contact-email">ahmedabdusalem397@gmail.com</a>
+            <p>For collabs, sponsorships, or feedback — this inbox is checked weekly.</p>
+          </div>
+
+          <div class="contact-card glass business-card">
+            <h3>Business Inquiries</h3>
+            <p class="response-time"><span class="badge-check">✓</span> Response time: usually within <strong>48 hours</strong></p>
+            <div class="collab-tags">
+              <span class="collab-tag">Sponsorships</span>
+              <span class="collab-tag">Consulting</span>
+              <span class="collab-tag">Partnerships</span>
+              <span class="collab-tag">Content Collaborations</span>
+            </div>
+          </div>
+
+          <div class="contact-card glass">
+            <h3>Find ATN online</h3>
+            <div class="social-links">
+              <a href="https://www.youtube.com/@abdusalemahmed77" class="social-link" target="_blank" rel="noopener" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6.1 3.5Z"/></svg><span>YouTube</span></a>
+              <a href="https://x.com/abdusee81427?s=09" class="social-link" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 1.9h3.7l-8 9.2 9.5 11h-7.5l-5.9-7.2-6.7 7.2H.3l8.6-9.8L.1 1.9h7.7l5.3 6.7Z"/></svg><span>X / Twitter</span></a>
+              <a href="https://github.com/CUIPLOK/Abdusee-Tech-" class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.3-1.7-1.3-1.7-1.1-.7 0-.7 0-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg><span>GitHub</span></a>
+              <a href="https://t.me/+-nRuy2lGYOw5MzU0" class="social-link" target="_blank" rel="noopener" aria-label="Telegram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.6 20c-.2 1-.9 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.3.3-.5.4-.9.4l.3-4.6L18 7.5c.4-.3 0-.5-.5-.2l-10 6.3-4.3-1.3c-1-.3-1-1 .2-1.5L20.5 3.4c.8-.3 1.6.2 1.4.9Z"/></svg><span>Telegram</span></a>
+              <a href="https://www.facebook.com/profile.php?id=100070749834957&mibextid=ZbWKwL" class="social-link" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12Z"/></svg><span>Facebook</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#home" class="logo" data-route="home">
+        <span class="logo-mark"><span class="logo-bracket">&lt;</span>ATN<span class="logo-bracket">/&gt;</span></span>
+        <span class="logo-sub">Abdusee Tech Network</span>
+      </a>
+      <p>AI • Technology • Online Income • Digital Skills.<br>Learn. Build. Grow. — by Abdusalam Ahmed Kasim.</p>
+      <div class="footer-social">
+        <a href="https://www.youtube.com/@abdusalemahmed77" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6.1 3.5Z"/></svg></a>
+        <a href="https://x.com/abdusee81427?s=09" target="_blank" rel="noopener" aria-label="X (Twitter)" class="social-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 1.9h3.7l-8 9.2 9.5 11h-7.5l-5.9-7.2-6.7 7.2H.3l8.6-9.8L.1 1.9h7.7l5.3 6.7Z"/></svg></a>
+        <a href="https://github.com/CUIPLOK/Abdusee-Tech-" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.3-1.3-1.7-1.3-1.7-1.1-.7 0-.7 0-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg></a>
+        <a href="https://t.me/+-nRuy2lGYOw5MzU0" target="_blank" rel="noopener" aria-label="Telegram" class="social-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.6 20c-.2 1-.9 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.3.3-.5.4-.9.4l.3-4.6L18 7.5c.4-.3 0-.5-.5-.2l-10 6.3-4.3-1.3c-1-.3-1-1 .2-1.5L20.5 3.4c.8-.3 1.6.2 1.4.9Z"/></svg></a>
+        <a href="https://www.facebook.com/profile.php?id=100070749834957&mibextid=ZbWKwL" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12Z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#home" data-route="home">Home</a>
+        <a href="#money" data-route="money">Online Money</a>
+        <a href="#ai" data-route="ai">AI</a>
+        <a href="#news" data-route="news">News</a>
+        <a href="#apps" data-route="apps">Apps</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="#blog" data-route="blog">Blog</a>
+        <a href="#resources" data-route="resources">Resources</a>
+        <a href="#courses" data-route="courses">Courses</a>
+        <a href="#ai-directory" data-route="ai-directory">AI Tools Directory</a>
+        <a href="#portfolio" data-route="portfolio">Portfolio</a>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <a href="#about" data-route="about">About Me</a>
+        <a href="#contact" data-route="contact">Contact</a>
+        <a href="mailto:ahmedabdusalem397@gmail.com">Email</a>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Get weekly AI &amp; income guides in your inbox.</p>
+        <form class="footer-newsletter-form" id="footerNewsletterForm">
+          <input type="email" placeholder="you@example.com" required aria-label="Email address" id="footerNewsletterEmail">
+          <button type="submit" class="btn btn-primary btn-sm" aria-label="Subscribe">→</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> ATN — Abdusee Tech Network. Founded by Abdusalam Ahmed Kasim. All rights reserved.</span>
+  </div>
+</footer>
+
+<!-- ================= INSTALL APP BUTTON (PWA) ================= -->
+<button class="install-app-btn" id="installAppBtn" hidden>
+  📱 Install ATN App
+</button>
+
+<!-- ================= AI CHAT ASSISTANT ================= -->
+<div class="ai-chat" id="aiChat">
+  <button class="ai-chat-toggle" id="aiChatToggle" aria-label="Open Ask Abdusee AI chat" aria-expanded="false">
+    <span class="ai-chat-toggle-label">🤖 Ask Abdusee AI</span>
+  </button>
+
+  <div class="ai-chat-window glass" id="aiChatWindow" hidden role="dialog" aria-label="Ask Abdusee AI chat window">
+    <div class="ai-chat-header">
+      <div class="ai-chat-title">
+        <span class="ai-chat-avatar">🤖</span>
+        <div>
+          <strong>Ask Abdusee AI</strong>
+          <small>ATN Assistant · usually replies instantly</small>
+        </div>
+      </div>
+      <button class="ai-chat-close" id="aiChatClose" aria-label="Close chat">✕</button>
+    </div>
+
+    <div class="ai-chat-messages" id="aiChatMessages">
+      <div class="ai-msg ai-msg-bot">
+        👋 Hi, I'm the ATN assistant. Ask me about AI tools, online income guides, or anything on Abdusee Tech Network — I'm still learning, so I'll get smarter soon!
+      </div>
+    </div>
+
+    <form class="ai-chat-input-row" id="aiChatForm">
+      <input type="text" id="aiChatInput" placeholder="Ask something..." aria-label="Type your message" autocomplete="off">
+      <button type="submit" aria-label="Send message">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

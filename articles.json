@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ai-agent-no-code",
+    "title": "Building Your First AI Agent with No Code",
+    "category": "AI & Automation",
+    "image": "images/articles/ai-agent-no-code.jpg",
+    "description": "A step-by-step walkthrough for wiring up an autonomous agent using free tools — no Python required.",
+    "content": "Most people overcomplicate their first AI agent. You do not need a backend, a database, or a single line of Python to get a useful agent running this week.\n\nStart by defining one narrow job: summarizing emails, drafting replies, or tagging incoming leads. Pick a no-code automation tool, connect it to your inbox or form, and wire in an AI model step that receives the incoming text and returns a structured response.\n\nTest it on real data for a few days before expanding scope. The biggest mistake beginners make is trying to build a general-purpose assistant on day one — narrow agents that do one thing reliably are far more useful, and far easier to debug.",
+    "date": "2026-06-08",
+    "author": "Abdusalam Ahmed Kasim"
+  },
+  {
+    "id": "freelance-starter-kit",
+    "title": "The $0 Freelance Starter Kit",
+    "category": "Online Income",
+    "image": "images/articles/freelance-starter-kit.jpg",
+    "description": "Everything you need to land your first client this month — proposal templates included.",
+    "content": "You do not need a portfolio site, a registered business, or paid tools to land your first freelance client. You need three things: a clear offer, a place to find clients, and a proposal that gets read.\n\nYour offer should be one sentence: who you help and what specific result you deliver. Avoid listing every skill you have — narrow offers convert better because they sound like a solution rather than a service menu.\n\nFor your first few clients, focus on platforms where buyers are already looking for help, and tailor every proposal to the specific job post. Generic proposals get ignored; proposals that reference a detail from the listing get replies.",
+    "date": "2026-06-05",
+    "author": "Abdusalam Ahmed Kasim"
+  },
+  {
+    "id": "thumbnail-ctr",
+    "title": "Why Your Thumbnails Are Killing Your CTR",
+    "category": "Content Creation & YouTube Growth",
+    "image": "images/articles/thumbnail-ctr.jpg",
+    "description": "A breakdown of high-performing thumbnails and the design patterns behind them.",
+    "content": "Click-through rate is mostly decided before anyone reads your title. The thumbnail does the heavy lifting, and most creators treat it as an afterthought.\n\nHigh-performing thumbnails tend to share a few traits: a single clear focal point, high contrast between subject and background, and minimal text — usually three words or fewer. If your thumbnail needs a full sentence to explain itself, it is competing with your title instead of supporting it.\n\nTest variations by swapping one element at a time: background color, facial expression, or text placement. Small, isolated changes make it possible to learn what actually moved the needle for your specific audience.",
+    "date": "2026-06-02",
+    "author": "Abdusalam Ahmed Kasim"
+  },
+  {
+    "id": "portfolio-weekend-build",
+    "title": "Ship a Portfolio Site in a Weekend",
+    "category": "Programming & Web/Mobile Dev",
+    "image": "images/articles/portfolio-weekend-build.jpg",
+    "description": "From zero to deployed — a practical build using modern frontend tooling.",
+    "content": "A portfolio site does not need a CMS, a backend, or weeks of planning. A single well-designed page with your best three projects, a short bio, and a way to contact you covers most of what hiring managers and clients actually look for.\n\nStart with structure before style: list the sections you need, then build each as plain HTML before touching design. Once the structure is solid, apply a simple, consistent visual system — one accent color, two fonts, and consistent spacing go a long way.\n\nDeploy early and often. Pushing a rough version live on day one means you are iterating on something real instead of polishing something no one has seen.",
+    "date": "2026-05-29",
+    "author": "Abdusalam Ahmed Kasim"
+  },
+  {
+    "id": "glassmorphism-guide",
+    "title": "Glassmorphism: When It Works (and When It Doesn't)",
+    "category": "Visual Arts & UI/UX",
+    "image": "images/articles/glassmorphism-guide.jpg",
+    "description": "A practical look at the trend, with do and don't examples for real interfaces.",
+    "content": "Glassmorphism — translucent, blurred panels layered over a colorful background — looks great in design mockups and can look terrible in real products if used carelessly.\n\nIt works best as an accent, not a default: navigation bars, modals, and cards that float above a busy background benefit from the depth it creates. It works poorly as a base for body text, where reduced contrast can hurt readability, especially for users with low vision.\n\nIf you use it, pair it with a strong underlying color system so the blur has something interesting to show through, and always test contrast ratios on the translucent surface, not just the solid background.",
+    "date": "2026-05-26",
+    "author": "Abdusalam Ahmed Kasim"
+  },
+  {
+    "id": "risk-management-1-percent",
+    "title": "Risk Management for Beginners: The 1% Rule",
+    "category": "Digital Trading",
+    "image": "images/articles/risk-management-1-percent.jpg",
+    "description": "The single habit that separates traders who survive from those who don't.",
+    "content": "The 1% rule is simple: never risk more than 1% of your total account on a single trade. It sounds conservative, almost boring — which is exactly the point.\n\nNew traders tend to focus on entries: when to buy, when to sell. Experienced traders focus on position sizing, because a string of losses with oversized positions can wipe out an account even with a good strategy.\n\nBefore you place a trade, calculate your position size based on your stop-loss distance and your 1% risk limit — not based on how confident you feel. Confidence is not a risk management tool.",
+    "date": "2026-05-22",
+    "author": "Abdusalam Ahmed Kasim"
+  }
+]
